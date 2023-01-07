@@ -1,0 +1,268 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header style */
+header{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items:center;
+    background:rgba(24, 23, 23, 0.473);
+    background-image: url('./images/donation2.jpg');
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+header > h1, header > p{
+    width: 60%;
+    margin:0 auto;
+    text-align: center;
+    margin-top: 14rem;
+    font-size: 3.5rem;
+    color:rgb(255, 255, 255);
+}
+
+header > p{
+   margin:2rem auto;
+   font-size: initial;
+   font-weight: 500;
+   width: 40%;
+   line-height: 1.5;
+   color:white;
+}
+
+/* style for all the button in this project */
+.common-button{
+    outline:none;
+    color:white;
+    font-weight: 600;
+    margin-top: 1rem;
+    font-size: 1rem ;
+    background-color: #FF5959;
+    padding:1rem 1.4rem;
+    border:1px solid #FF5959;
+    border-radius:4px;
+}
+
+/* main style */
+main{
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+/* main style for the donate-today section */
+.donate-today{
+    margin-top: 5rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+
+.donate-today h1, p{
+    width: 60%;
+    margin:0 auto;
+    text-align: center;
+    font-size: 3.5rem;
+    color:black;
+}
+
+.donate-today p{
+   margin:2rem auto;
+   margin-bottom: 0.4rem;
+   font-size: initial;
+   font-weight: 500;
+   width: 50%;
+   line-height: 1.5;
+   color: #D0D0D0;
+}
+
+.donate-today hr{
+    width: 40%;
+    background-color: #E4E4E4;
+}
+
+.cb-2{
+    margin-top: 2rem;
+}
+
+.taka-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.taka-list li{
+    padding:2rem 1rem;
+    color:#818181;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.taka-list .special-text{
+    background-color: #FFEEEE;
+    border: 1px solid #FF5959;
+    color:#FF5959;
+}
+
+/* main style for the our-donate-plan section */
+.our-donate-plan{
+    margin-top: 5rem;
+}
+
+.our-donate-plan h1, p{
+    width: 60%;
+    margin:0 auto;
+    text-align: center;
+    font-size: 3.5rem;
+    color:black;
+}
+
+.our-donate-plan p{
+   margin:2rem auto;
+   font-size: initial;
+   font-weight: 500;
+   width: 50%;
+   line-height: 1.5;
+}
+
+.plan-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan{
+    width: 30%;
+    padding: 3rem 1.5rem;
+    border-radius: 10px;
+}
+
+.food{
+    background-color: #EDF5F6;
+}
+
+.shelter{
+    background-color:#FFEEEE;
+}
+
+.education{
+    background-color: #FFF4D6;
+}
+
+.plan img{
+    margin-bottom: 2rem;
+}
+
+.plan p{
+    text-align: start;
+    margin:0;
+    margin-top: 1.5rem;
+    width: 80%;
+}
+
+/* main style for the life-depend-on-donation and need-us-to-survive section */
+.life-depend-on-donation, .need-us-to-survive{
+    width: 100%;
+    margin-top: 0 auto;
+    margin-top: 8rem;
+    display: flex;
+    /* gap:5rem; */
+}
+
+.life-depend-on-donation img{
+    width: 70%;
+    height: 24rem;
+}
+
+.need-us-to-survive img{
+    width: 50%;
+    height: auto;
+    margin-right: 3.5rem;
+}
+
+article{
+    padding: 3rem 0rem;
+}
+
+article h1{
+    margin:0;
+    width: 95%;
+    font-size: 2.5rem;
+    text-align: start;
+}
+
+article p{
+    margin:0;
+    font-size: 1.2rem;
+    text-align: start;
+    margin-top: 1rem;
+}
+
+.need-us-to-survive article p{
+    margin-left: 0.3rem;
+    width: 80%;
+}
+
+/* main style for the .get-on-updates section */
+.get-on-updates{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF4D6;
+    height: 40vh;
+}
+
+
+.get-on-updates input{
+    width: 30%;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    margin-top: 1rem;
+    font-size: 1rem ;
+    background-color: #D9D9D9;
+    padding:1rem 1.4rem;
+    border-radius:4px 0px 0px 4px;
+}
+
+.cb-3{
+    border-radius: 0px;
+    border-radius:0px 4px 4px 0px;
+}
+
+/* footer style */
+footer{
+    background-color: #0B0D17;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    height: 20vh;
+}
+
+footer p{
+    color:#D9D9D9;
+    font-size: 1rem;
+}
+
+
+
+
